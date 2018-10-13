@@ -1,34 +1,39 @@
-[hr]
-[center][color=red][size=16pt][b]EMBED SMULE VIDEO BBCODE v1.4[/b][/size][/color]
-[url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=4135]Link to Mod[/url]
-[/center]
-[hr]
+--------
 
-[color=blue][b][size=12pt][u]Introduction[/u][/size][/b][/color]
+# EMBED SMULE VIDEO BBCODE v1.4
+
+[**By Dougiefresh**](http://www.simplemachines.org/community/index.php?action=profile;u=253913) -> [Link to Mod](http://custom.simplemachines.org/mods/index.php?mod=4135)
+
+--------
+
+## Introduction
 This modification adds a BBCode to view SMule recordings.
 
 The BBCode takes this form:
-[code]
-[SMule width=x]{SMule URL}[/smule]
-[/code]
+    
+    [SMule width=x]{SMule URL}[/smule]
+    
 
-[color=blue][b][size=12pt][u]Admin Settings[/u][/size][/b][/color]
-There are a new setting on the [b]Modifications Settings[/b] page:
-o SMule default width
+## Admin Settings
+There are a new setting on the **Modifications Settings** page:
 
-[color=blue][b][size=12pt][u]Related Discussion[/u][/size][/b][/color]
-o [url=http://www.simplemachines.org/community/index.php?topic=550876.0]Embed SMule.com BBCodes[/url]
+- SMule default width
 
-[color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
+## Related Discussion
+
+- [Embed SMule.com BBCodes](http://www.simplemachines.org/community/index.php?topic=550876.0)
+
+## Compatibility Notes
 This mod was tested on SMF 2.0.12, but should work on SMF 2.1 Beta 2, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
 
-This mod should be installed after [url=https://www.tapatalk.com/download_SimpleMachines.php]Tapatalk mod[/url], if you want to use it with Tapatalk.
+This mod should be installed after [Tapatalk mod](https://www.tapatalk.com/download_SimpleMachines.php), if you want to use it with Tapatalk.
 
-[color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
-The changelog can be viewed at [url=http://www.xptsp.com/board/free-modifications/embed-smule-bbcode/]XPtsp.com[/url].
+## Changelog
+The changelog can be viewed at [XPtsp.com](http://www.xptsp.com/board/free-modifications/embed-smule-bbcode/).
 
-[color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
+## License
 Copyright (c) 2016 - 2018, Douglas Orend
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
