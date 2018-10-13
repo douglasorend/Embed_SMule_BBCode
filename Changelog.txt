@@ -1,3 +1,6 @@
+v1.0.2 - January 6th, 2017
+o Edited documentation to remove erroneous tag uses from the [b]readme.txt[/b] file.
+
 v1.0.1 - December 30th, 2016
 o Fixed several capitalization issues with settings and language settings.
 o Fixed issue where URLs with percent sign weren't recognized properly.

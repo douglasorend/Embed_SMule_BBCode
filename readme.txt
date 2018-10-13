@@ -1,18 +1,16 @@
 [hr]
-[center][color=red][size=16pt][b]EMBED SMULE VIDEO BBCODE v1.0.1[/b][/size][/color]
+[center][color=red][size=16pt][b]EMBED SMULE VIDEO BBCODE v1.0.2[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=4135]Link to Mod[/url]
 [/center]
 [hr]
 
 [color=blue][b][size=12pt][u]Introduction[/u][/size][/b][/color]
-This modification adds a BBCode to view SMule videos and pictures.
+This modification adds a BBCode to view SMule recordings.
 
-The BBCode takes these forms:
+The BBCode takes this form:
 [code]
-[smule]{SMule ID}[/smule]
-[SMule width=x]{SMule ID}[/smule]
+[SMule width=x]{SMule URL}[/smule]
 [/code]
-where [b]{SMule ID}[/b] is the [b]bnbO1QXLWhr[/b] part of the [b]http://SMule.co/v/bnbO1QXLWhr[/b] URL.
 
 [color=blue][b][size=12pt][u]Admin Settings[/u][/size][/b][/color]
 There are a new setting on the [b]Modifications Settings[/b] page:
@@ -28,7 +26,7 @@ This mod was tested on SMF 2.0.12, but should work on SMF 2.1 Beta 2, as well as
 The changelog has been removed and can be seen at [url=http://www.xptsp.com/board/index.php?topic=760.msg1330#msg1330]XPtsp.com[/url].
 
 [color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
-Copyright (c) 2015 - 2016, Douglas Orend
+Copyright (c) 2016 - 2017, Douglas Orend
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
