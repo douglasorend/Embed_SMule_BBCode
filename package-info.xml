@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>Dougiefresh:SMule</id>
+	<name>Embed SMule Videos BBCode</name>
+	<type>modification</type>
+	<version>1.0</version>
+
+	<install for="2.0 - 2.0.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<code>add_remove_hooks.php</code>
+		<modification>install.xml</modification>
+		<modification>language_english.xml</modification>
+		<require-file name="Subs-BBCode-SMule.php" destination="$sourcedir" />
+		<require-file name="BBCode-SMule.css" destination="$themedir/css" />
+		<require-file name="SMule.gif" destination="$imagesdir/bbc" />
+	</install>
+	<uninstall for="2.0 - 2.0.99">
+		<code>add_remove_hooks.php</code>
+		<modification reverse="true">install.xml</modification>
+		<modification reverse="true">language_english.xml</modification>
+		<remove-file name="$sourcedir/Subs-BBCode-SMule.php" />		
+		<remove-file name="$themedir/css/BBCode-SMule.css" />
+		<remove-file name="$imagesdir/bbc/SMule.gif" />
+	</uninstall>
+
+	<install for="2.1 Beta 2">
+		<readme parsebbc="true">readme.txt</readme>
+		<code>add_remove_hooks.php</code>
+		<modification>language_english.xml</modification>
+		<require-file name="Subs-BBCode-SMule.php" destination="$sourcedir" />
+		<require-file name="BBCode-SMule.css" destination="$themedir/css" />
+		<require-file name="SMule.png" destination="$imagesdir/bbc" />
+	</install>
+	<uninstall for="2.1 Beta 2">
+		<code>add_remove_hooks.php</code>
+		<modification reverse="true">language_english.xml</modification>
+		<remove-file name="$sourcedir/Subs-BBCode-SMule.php" />		
+		<remove-file name="$themedir/css/BBCode-SMule.css" />
+		<remove-file name="$imagesdir/bbc/SMule.png" />
+	</uninstall>
+</package-info>
