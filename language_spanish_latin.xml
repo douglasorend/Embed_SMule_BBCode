@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+<id>Dougiefresh:SMule</id>
+<name>Embed SMule Videos BBCode</name>
+<version>1.2</version>
+	
+<file name="$languagedir/index.spanish_latin.php" error="Skip">
+	<operation>
+		<search position="end" />
+		<add><![CDATA[
+$txt['SMule_no_post_id'] = 'No se proporcion&oacute;ningun enlace de publicaci&oacute;n de SMule.';
+$txt['SMule_default_width'] = 'Ancho predeterminado utilizado para SMule bbcode cuando no se especifica<div class="smalltext">Nota: Colocar <strong>0</strong> para usar la pantalla adaptativo</div>';
+]]></add>
+	</operation>
+</file>
+
+<file name="$languagedir/index.spanish_latin-utf8.php" error="Skip">
+	<operation>
+		<search position="end" />
+		<add><![CDATA[
+$txt['SMule_no_post_id'] = 'No se proporcionó ningun enlace de publicación de SMule.';
+$txt['SMule_default_width'] = 'Ancho predeterminado utilizado para SMule bbcode cuando no se especifica<div class="smalltext">Nota: Colocar <strong>0</strong> para usar la pantalla adaptativo</div>';
+]]></add>
+	</operation>
+</file>
+</modification>
