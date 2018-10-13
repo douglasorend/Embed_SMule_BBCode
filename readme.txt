@@ -1,5 +1,5 @@
 [hr]
-[center][color=red][size=16pt][b]EMBED SMULE VIDEO BBCODE v1.0[/b][/size][/color]
+[center][color=red][size=16pt][b]EMBED SMULE VIDEO BBCODE v1.0.1[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=4135]Link to Mod[/url]
 [/center]
 [hr]
@@ -18,8 +18,8 @@ where [b]{SMule ID}[/b] is the [b]bnbO1QXLWhr[/b] part of the [b]http://SMule.co
 There are a new setting on the [b]Modifications Settings[/b] page:
 o SMule default width
 
-[color=blue][b][size=12pt][u]Embed Information Source[/u][/size][/b][/color]
-o [url=http://crazyadventuresinparenting.com/2013/02/how-to-embed-your-SMule-videos-into-posts.html]How To Embed Your SMule Videos Into Posts[/url]
+[color=blue][b][size=12pt][u]Related Discussion[/u][/size][/b][/color]
+o [url=http://www.simplemachines.org/community/index.php?topic=550876.0]Embed SMule.com BBCodes[/url]
 
 [color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
 This mod was tested on SMF 2.0.12, but should work on SMF 2.1 Beta 2, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.

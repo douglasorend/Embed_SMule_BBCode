@@ -77,7 +77,6 @@ function BBCode_SMule_Validate(&$tag, &$data, &$disabled)
 	list($width, $frameborder) = explode('|', $tag['content']);
 	if (empty($width))
 		$width = !empty($modSettings['SMule_default_width']) ? $modSettings['SMule_default_width'] : false;
-	if (
 	$tag['content'] = '<div style="max-width: ' . (empty($width) ? '100%;' : $width . 'px;') . ' height: 125px;"><div class="smule-wrapper">' .
 		'<iframe src="https://smule.com/' . $data .'/frame" scrolling="no" frameborder="' . $frameborder . '"></iframe></div></div>';
 }
